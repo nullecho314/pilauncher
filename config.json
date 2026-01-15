@@ -1,0 +1,28 @@
+{
+  "fullscreen": true,
+  "background": "/usr/share/rpd-wallpaper/aurora.jpg",
+  "terminal": "lxterminal",
+  "columns": 3,
+  "spacing": 25,
+  "transparent_button": true,
+  "button_size": 110,
+  "font_size": 16,
+  "icon_size": 64,
+  "dot_size": 10,
+  "pages": [
+    {
+      "apps": [
+        {"name": "VLC", "cmd": "vlc", "icon": "vlc"},
+        {"name": "Kodi", "cmd": "kodi", "icon": "kodi"},
+        {"name": "Chromium", "cmd": "chromium", "icon": "chromium"}
+      ]
+    },
+    {
+      "apps": [
+        {"name": "PCManFM", "cmd": "pcmanfm", "icon": "system-file-manager"},
+        {"name": "Configuration", "cmd": "rc_gui", "icon": "preferences-system"},
+        {"name": "Shutdown", "cmd": "pishutdown", "icon": "system-shutdown"}
+      ]
+    }
+  ]
+}
